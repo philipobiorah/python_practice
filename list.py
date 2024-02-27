@@ -19,5 +19,21 @@ bicycles.insert(3, "splendid")
 #removing element form list using del
 del bicycles[3]
 
+#pop allows you to remove and use the item
+#pop removes items for the end of the list
+
+poped_item = bicycles.pop()
+
 for i in range(len(bicycles)-1):
     print(bicycles[i].title())
+
+
+
+print("Popped:", poped_item)
+
+for i in range(len(bicycles)-1):
+    print(bicycles[i].title())
+
+#popping items from any position in a list
+first_owned = bicycles.pop(0)
+print(f"The first bicycle was {first_owned.title()}")
