@@ -37,3 +37,29 @@ for i in range(len(bicycles)-1):
 #popping items from any position in a list
 first_owned = bicycles.pop(0)
 print(f"The first bicycle was {first_owned.title()}")
+
+#removing item by value
+bicycles.remove('redline')
+print(".......removing item by value........")
+for i in range(len(bicycles)-1):
+    print(bicycles[i].title())
+
+
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+# sort method chages the order of the list permanently. 
+cars.sort()
+print(cars)
+
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+#sort the list in reverse order
+cars.sort(reverse=True)
+print(cars)
+
+#To sort temporily use sorted()
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(sorted(cars))
+print("Here is the original list again:")
+print(cars)
