@@ -18,3 +18,4 @@ guestlist.insert(1, "Atimor")
 print("Current List:")
 for guest in guestlist:
     print(guest.title())
+
