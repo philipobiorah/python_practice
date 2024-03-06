@@ -95,3 +95,11 @@ print(squares2)
 
 
 #for loop to print the number  1 to 20
+for x in range(1, 21):
+    print(x)
+
+
+#one million
+one_million = [x for x in range(1, 1000000 + 1)]
+for y in one_million:
+    print(y)
