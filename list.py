@@ -78,3 +78,20 @@ for value in range(1, 11):
     squares.append(square)
 
 print(squares)
+
+
+#simple stats with digits 
+digits = [1,2,3,4,5,6,7,8,9,0]
+print("min:", min(digits))
+
+print("max:", max(digits))
+
+print("sum:", sum(digits))
+
+
+#list comprehension
+squares2 = [x ** 2 for x in range(1, 11)]
+print(squares2)
+
+
+#for loop to print the number  1 to 20
