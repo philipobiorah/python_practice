@@ -101,5 +101,25 @@ for x in range(1, 21):
 
 #one million
 one_million = [x for x in range(1, 1000000 + 1)]
-for y in one_million:
-    print(y)
+# for y in one_million:
+#     print(y)
+# print(one_million)
+
+print("min:", min(one_million))
+
+print("max:", max(one_million))
+
+print("sum:", sum(one_million))
+
+
+#odd numbers with range
+odd_numbers = [k for k in range(1, 20 + 1, 2)]
+print(odd_numbers)
+    
+#Threes
+threes = [x  for x in range(3, 31, 3)]
+print(threes)
+
+#Cubes
+cubes = [c**3 for c in range(1, 10 + 1)]
+print(cubes)
