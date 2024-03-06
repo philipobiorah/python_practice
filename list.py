@@ -63,3 +63,18 @@ print("Here is the original list:")
 print(sorted(cars))
 print("Here is the original list again:")
 print(cars)
+
+
+#using range to  make a listeven numbers 
+even_numbers = list(range(2, 11, 2))
+print("list of even numbers")
+print(even_numbers)
+
+
+#list of squares
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+
+print(squares)
