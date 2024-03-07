@@ -120,6 +120,19 @@ print(odd_numbers)
 threes = [x  for x in range(3, 31, 3)]
 print(threes)
 
-#Cubes
+#Cubes 
 cubes = [c**3 for c in range(1, 10 + 1)]
 print(cubes)
+
+#Slicing a list
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players[0:3]) # ['charles', 'martina', 'michael']
+print(players[1:4]) # ['martina', 'michael', 'florence']
+print(players[2:])  #['michael', 'florence', 'eli']
+
+
+#copy lis
+my_players = players[:]
+my_players.append("atimor")
+print("My players copied: ", my_players)
+print("Players : ", players)
