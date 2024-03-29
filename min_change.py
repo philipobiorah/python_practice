@@ -13,12 +13,30 @@ user_input = float(input("Enter money in cents: "))
 #convert the amount into cents
 input_cents = user_input * 100
 print(f"{input_cents} cents")
-
 dollars = int(input_cents//100)
-print(f"{dollars}  : dollars")
+print(f"{user_input} consists of : ")
+print(f"{dollars}  - dollars")
 
 change = input_cents % 100
-print(f"{change} : cents remaining")
+while change > 1:
+        print(f"{int(change)} - cents")
+
+        quarter = int(change / 25)
+        print(f"{quarter} - quarters")
+
+        change = change % 25
+
+        dime = int(change / 10)
+        print(f"{dime} - dime")
+
+        change = change % 10
+
+        nickels = int(change / 5)
+        print(f"{int(nickels)} - nickels")
+
+        change = change % 5
+pennies = change
+print(f"{int(change)} - pennies")
     
 
 
