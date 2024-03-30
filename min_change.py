@@ -18,7 +18,7 @@ print(f"{user_input} consists of : ")
 print(f"{dollars}  - dollars")
 
 change = input_cents % 100
-while change > 1:
+while change > 4:
         print(f"{int(change)} - cents")
 
         quarter = int(change / 25)
