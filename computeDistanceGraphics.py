@@ -11,4 +11,8 @@ y2 = float(input("Enter y-coordinate for Point 2: "))
 #Compute the distance
 distance = ((x2 - x1)**2 +(y2 - y1)**2)**5
 
-#Display two oints and the connecting line
+#Display two points and the connecting line
+turtle.penup()
+turtle.goto(x1, y1)  # Move to (x1, y1)
+turtle.pendown()
+turtle.write("Point 1", font=("Times", 12))
