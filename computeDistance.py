@@ -1,3 +1,9 @@
+"""
+The program prompts the user to enter the coordinates of the first point and the second point. 
+It then computes the distance between then and displays. 
+
+"""
+
 # Enter the first point with two double values
 
 x1 = float(input("Enter x-coordinate for Point 1: "))
