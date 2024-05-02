@@ -4,8 +4,9 @@ four digit integer ande displays the freatest digit among the four digits
 
 """
 
-digit = int(input("Enter four-digit integer: "))
+in_digit = int(input("Enter four-digit integer: "))
 
+digit = in_digit
 largest = 0
 while digit > 0:
     last =  digit % 10
@@ -18,6 +19,6 @@ while digit > 0:
     
   
     
-    print(f"rem_digit: {digit} : last {last}")
+    # print(f"rem_digit: {digit} : last {last}")
 
-print(f"largest: {largest}")
+print(f"Digit: {in_digit} largest: {largest}")
