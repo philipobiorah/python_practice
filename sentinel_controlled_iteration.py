@@ -15,3 +15,8 @@ while grade != -1:
     grade = int(input('Enter grade, -1 to end: ')) #get one grade
 
 
+#termination
+if grade_counter != 0:
+    average = total/grade_counter
+    print(average)
+print("No grades were entered")
