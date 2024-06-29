@@ -19,4 +19,11 @@ while grade != -1:
 if grade_counter != 0:
     average = total/grade_counter
     print(average)
-print("No grades were entered")
+else:
+    print("No grades were entered")
+
+
+for row in range(10):
+    for column in range(10):
+        print('<' if row % 2 == 1 else '>', end='')
+    print()
